@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Counting Result</title>
+    <style>
+        /* Center the content */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        /* Style for the result box */
+        .result-box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Title style */
+        .result-box h1 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        /* Object and count display */
+        .result-box p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Back button */
+        .result-box a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            color: #fff;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .result-box a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h1>Object Counting Result</h1>
+        <p><strong>Object:</strong> {{ object_name }}</p>
+        <p><strong>Count:</strong> {{ count }}</p>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
+
