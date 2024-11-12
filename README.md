@@ -14,13 +14,17 @@ This project is an object-counting system built using YOLO (You Only Look Once) 
    ```bash
    git clone https://github.com/yourusername/object-counting-system.git
    cd object-counting-system
+   
 2.**Set up a virtual environment**:
    python3 -m venv venv
    source venv/bin/activate
+   
 3.**Install the required packages**:
   pip install -r requirements.txt
+  
 4.**Download YOLO weights**:
   Download the YOLO weights file from Google Drive link .
+ (https://drive.google.com/file/d/1XefBygrdutoluUH12H4S8bZgzljNzsLM/view?usp=sharing)
 
 ## Folder Structure
 - app.py - Main Flask application file.
